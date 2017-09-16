@@ -1,0 +1,6 @@
+framework module Pods_GPUImage_____ {
+  umbrella header "Pods-GPUImage-美颜采集-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+use_frameworks!
+
+targetsArray = ['GPUImage-useage', 'OthersFilter’,’GPUImage-美颜相机’,’GPUImage-美颜采集’]
+targetsArray.each do |t|
+    target t do
+        pod 'GPUImage'
+    end
+end
